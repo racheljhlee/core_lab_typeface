@@ -1,0 +1,3008 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	position: relative;
+	width: 200px;
+	height: 220px;
+}
+
+/* ------------------------------------------------ FLOATING CSS */
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 200px;
+    height: 220px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 80px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.floating2 {  
+    animation-name: floating-two;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating-two {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 100px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+/* ------------------------------------------------- SUNNY PAGE */
+
+.sunny {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: lightblue;
+  display: none;
+}
+
+/* PLACEMENT */
+
+.sunny-s-placement {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+}
+
+.sunny-u-placement {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-30%, -40%);
+}
+
+.sunny-n-placement {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.sunny-n2-placement {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-70%, -40%);
+}
+
+.sunny-y-placement {
+  position: absolute;
+  top: 40%;
+  left: 90%;
+  transform: translate(-90%, -40%);
+}
+
+/* LETTERS */
+
+.sunny-s {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 220px;
+}
+
+.sunny-u {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 220px;
+}
+
+.sunny-n {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 220px;
+}
+
+.sunny-n2 {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 220px;
+}
+
+.sunny-y {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 220px;
+}
+
+/* GIFS */
+
+.sun {
+  position: absolute;
+  top: 0%;
+  left: 85%;
+  transform: translate(-85%, 0%);
+  width: 300px;
+  height: 300px;
+}
+
+.sun-clouds {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, 50%);
+}
+
+.sun-clouds2 {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(-60%, -20%);
+}
+
+.shorts {
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  transform: translate(-70%, -90%);
+  opacity: 0;
+}
+
+.shorts:hover {
+  opacity: 1;
+}
+
+.sunglasses {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  transform: translate(-10%, 0%);
+  opacity: 0;
+}
+
+.sunglasses:hover {
+  opacity: 1;
+}
+
+
+/* ------------------------------------------------- RAINY PAGE */
+
+.rainy {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: midnightblue;
+  display: none;
+}
+
+/* PLACEMENT */
+
+.rainy-r-placement {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  transform: translate(-10%, -40%);
+}
+
+.rainy-a-placement {
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  transform: translate(-33%, -40%);
+}
+
+.rainy-i-placement {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-45%, -40%);
+}
+
+.rainy-n-placement {
+  position: absolute;
+  top: 40%;
+  left: 58%;
+  transform: translate(-58%, -40%);
+}
+
+.rainy-y-placement {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-75%, -40%);
+}
+
+/* LETTERS */
+
+.rainy-r {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 10%;
+}
+
+.rainy-a {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 25%;
+}
+
+.rainy-i {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 40%;
+}
+
+.rainy-n {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 55%;
+}
+
+.rainy-y {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 70%;
+}
+
+/* GIFS */
+
+.raindrop {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  transform: translate(-10%, 0%);
+}
+
+.raindrop2 {
+  position: absolute;
+  top: 35%;
+  left: 90%;
+  transform: translate(-90%, 35%);
+}
+
+.umbrella {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  opacity: 0;
+}
+
+.umbrella:hover {
+  opacity: 1;
+}
+
+.jacket {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, 40%);
+  opacity: 0;
+}
+
+.jacket:hover {
+  opacity: 1;
+}
+
+.rainboots{
+  position: absolute;
+  top: 0%;
+  left: 90%;
+  transform: translate(-90%, 0%);
+  opacity: 0;
+}
+
+.rainboots:hover {
+  opacity: 1;
+}
+
+/* ------------------------------------------------- STORMY PAGE */
+
+.stormy {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+  display: none;
+}
+
+/* PLACEMENT */
+
+.stormy-s-placement {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  transform: translate(-3%, -40%);
+}
+
+.stormy-t-placement {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-20%, -40%);
+}
+
+.stormy-o-placement {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-35%, -40%);
+}
+
+.stormy-r-placement {
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  transform: translate(-52%, -40%);
+}
+
+.stormy-m-placement {
+  position: absolute;
+  top: 40%;
+  left: 68%;
+  transform: translate(-68%, -40%);
+}
+
+.stormy-y-placement {
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  transform: translate(-85%, -40%);
+}
+
+/* LETTERS */
+
+.stormy-s {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 10%;
+}
+
+.stormy-t {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 20%;
+}
+
+.stormy-o {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 30%;
+}
+
+.stormy-r {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 40%;
+}
+
+.stormy-m {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 50%;
+}
+
+.stormy-y {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 60%;
+}
+
+/* GIFS */
+
+.lightning {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  transform: translate(-10%, 0%);
+}
+
+.lightning2 {
+   position: absolute;
+  top: 100%;
+  left: 90%;
+  transform: translate(-90%, -100%);
+}
+
+.jacket2 {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-30%, -90%);
+  opacity: 0;
+}
+
+.jacket2:hover {
+  opacity: 1;
+}
+
+.sweatpants {
+  position: absolute;
+  top: 0%;
+  left: 75%;
+  transform: translate(-75%, 0%);
+  opacity: 0;
+}
+
+.sweatpants:hover {
+  opacity: 1;
+}
+/* ------------------------------------------------- CLOUDY PAGE */
+
+.cloudy {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: darkgray;
+  display: none;
+}
+
+/* PLACEMENT */
+
+.cloudy-c-placement {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  transform: translate(-5%, -40%);
+}
+
+.cloudy-l-placement {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  transform: translate(-22%, -40%);
+}
+
+.cloudy-o-placement {
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  transform: translate(-34%, -40%);
+}
+
+.cloudy-u-placement {
+  position: absolute;
+  top: 40%;
+  left: 51%;
+  transform: translate(-51%, -40%);
+}
+
+.cloudy-d-placement {
+  position: absolute;
+  top: 40%;
+  left: 69%;
+  transform: translate(-69%, -40%);
+}
+
+.cloudy-y-placement {
+  position: absolute;
+  top: 40%;
+  left: 83%;
+  transform: translate(-83%, -40%);
+}
+
+/* LETTERS */
+
+.cloudy-c {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 10%;
+}
+
+.cloudy-l {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 20%;
+}
+
+.cloudy-o {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 30%;
+}
+
+.cloudy-u {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 40%;
+}
+
+.cloudy-d {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 50%;
+}
+
+.cloudy-y {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 60%;
+}
+
+/* GIF */
+
+.cloudy-cloud {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 400px;
+  height: 300px;
+  transform: translate(0%, 0%);
+}
+
+.cloudy-cloud2 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%); 
+}
+
+.cloudy-cloud3 {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  transform: translate(-60%, -80%); 
+}
+
+.cloudy-cloud4 {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-90%, -10%);
+}
+
+.sweater {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-20%, -90%);
+  opacity: 0;
+}
+
+.sweater:hover {
+  opacity: 1;
+}
+
+.boots {
+  position: absolute;
+  top: 0%;
+  left: 60%;
+  transform: translate(-60%, 0%);
+  opacity: 0;
+}
+
+.boots:hover {
+  opacity: 1;
+}
+
+/* ------------------------------------------------- SNOWY PAGE */
+
+.snowy {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: lightgray;
+  display: none;
+}
+
+/* PLACEMENT */
+
+.snowy-s-placement {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+}
+
+.snowy-n-placement {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+  transform: translate(-28%, -40%);
+}
+
+.snowy-o-placement {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-45%, -40%);
+}
+
+.snowy-w-placement {
+  position: absolute;
+  top: 40%;
+  left: 62%;
+  transform: translate(-62%, -40%);
+}
+
+.snowy-y-placement {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  transform: translate(-80%, -40%);
+}
+
+/* LETTER */
+
+.snowy-s {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 10%;
+}
+
+.snowy-n {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 25%;
+}
+
+.snowy-o {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 40%;
+}
+
+.snowy-w {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 55%;
+}
+
+.snowy-y {
+  position: relative;
+  width: 200px;
+  height: 220px;
+  left: 70%;
+}
+
+/* GIFS */
+
+.snowflake {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-90%, -10%);
+}
+
+.snowflake2 {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-10%, -90%);
+}
+
+.beanie {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  transform: translate(-40%, 0%);
+  opacity: 0;
+}
+
+.beanie:hover {
+  opacity: 1;
+}
+
+.gloves {
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  transform: translate(-70%, 45%);
+  opacity: 0;
+}
+
+.gloves:hover {
+  opacity: 1;
+}
+
+.timberland {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+  opacity: 0;
+}
+
+.timberland:hover {
+  opacity: 1;
+}
+/* ------------------------------------------------- LETTER PAGES */
+
+/* START A */
+
+.a1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 40%;
+}
+
+.a2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 0%;
+}
+
+.a3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 80%;
+}
+
+.a4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 20%;
+}
+
+.a5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 60%;
+}
+
+.a6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 30%;
+  	left: 25%;
+}
+
+.a7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 20%;
+  	left: 30%;
+}
+
+.a8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 10%;
+  	left: 35%;
+}
+
+.a9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 30%;
+  	left: 55%;
+}
+
+.a10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 20%;
+  	left: 50%;
+}
+
+.a11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 10%;
+  	left: 45%;
+}
+
+.a12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 50%;
+  	left: 15%;
+}
+
+.a13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 50%;
+  	left: 65%;
+}
+
+.a14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 60%;
+  	left: 70%;
+}
+
+.a15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 70%;
+  	left: 75%;
+}
+
+.a16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 70%;
+  	left: 5%;
+}
+
+.a17 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 60%;
+  	left: 10%;
+}
+
+.a18 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 50%;
+  	left: 30%;
+}
+
+.a19 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 50%;
+  	left: 40%;
+}
+
+.a20 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+}
+
+/* START C */
+
+.c1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 15%;
+  	left: 80%;
+}
+
+.c2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 40%;
+}
+
+.c3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 5%;
+}
+
+.c4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 35%;
+}
+
+.c5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 70%;
+  	left: 80%;
+}
+
+.c6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 5%;
+  	left: 70%;
+}
+
+.c7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 55%;
+}
+
+.c8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 5%;
+  	left: 25%;
+}
+
+.c9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 15%;
+  	left: 15%;
+}
+
+.c10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 26%;
+  	left: 8%;
+}
+
+.c11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 52%;
+  	left: 5%;
+}
+
+.c12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 10%;
+}
+
+.c13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 20%;
+}
+
+.c14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 50%;
+}
+
+.c15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 78%;
+  	left: 65%;
+}
+
+/* START D */
+
+.d1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.d2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 0%;
+}
+
+.d3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 0%;
+}
+
+.d4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 0%;
+}
+
+.d5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 0%;
+}
+
+.d6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 0%;
+}
+
+.d7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 15%;
+}
+
+.d8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 30%;
+}
+
+.d9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 3%;
+  	left: 45%;
+}
+
+.d10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 10%;
+  	left: 58%;
+}
+
+.d11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 23%;
+  	left: 70%;
+}
+
+.d12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 75%;
+}
+
+.d13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 55%;
+  	left: 73%;
+}
+
+.d14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 68%;
+  	left: 65%;
+}
+
+.d15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 50%;
+}
+
+.d16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 32%;
+}
+
+.d17 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 15%;
+}
+
+/* START I */
+
+.i1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 40%;
+}
+
+.i2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 40%;
+}
+
+.i3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 40%;
+}
+
+.i4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 40%;
+}
+
+.i5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 40%;
+}
+
+.i6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 40%;
+}
+
+/* START L */
+
+.l1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.l2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 0%;
+}
+
+.l3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 0%;
+}
+
+.l4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 0%;
+}
+
+.l5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 0%;
+}
+
+.l6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 0%;
+}
+
+.l7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 15%;
+}
+
+.l8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 30%;
+}
+
+.l9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 45%;
+}
+
+.l10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 60%;
+}
+
+/* START M */
+
+.m1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.m2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 0%;
+}
+
+.m3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 0%;
+}
+
+.m4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 0%;
+}
+
+.m5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 0%;
+}
+
+.m6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 0%;
+}
+
+.m7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 80%;
+}
+
+.m8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 80%;
+}
+
+.m9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 80%;
+}
+
+.m10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 80%;
+}
+
+.m11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 80%;
+}
+
+.m12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 80%;
+}
+
+.m13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 35%;
+  	left: 40%;
+}
+
+.m14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 5%;
+  	left: 10%;
+}
+
+.m15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 25%;
+  	left: 30%;
+}
+
+.m16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 15%;
+  	left: 20%;
+}
+
+.m17 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 5%;
+  	left: 70%;
+}
+
+.m18 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 15%;
+  	left: 60%;
+}
+
+.m19 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 25%;
+  	left: 50%;
+}
+
+/* START N */
+
+.n1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.n2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 0%;
+}
+
+.n3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 0%;
+}
+
+.n4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 0%;
+}
+
+.n5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 0%;
+}
+
+.n6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 0%;
+}
+
+.n7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 80%;
+}
+
+.n8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 80%;
+}
+
+.n9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 80%;
+}
+
+.n10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 80%;
+}
+
+.n11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 80%;
+}
+
+.n12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 80%;
+}
+
+.n13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 5%;
+  	left: 10%;
+}
+
+.n14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 40%;
+}
+
+.n15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 70%;
+}
+
+.n16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 15%;
+  	left: 20%;
+}
+
+.n17 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 28%;
+  	left: 30%;
+}
+
+.n18 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 52%;
+  	left: 50%;
+}
+
+.n19 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 60%;
+}
+
+/* START O */
+
+.o1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 40%;
+}
+
+.o2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 80%;
+}
+
+.o3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 40%;
+}
+
+.o4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 0%;
+}
+
+.o5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 2%;
+  	left: 55%;
+}
+
+.o6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 12%;
+  	left: 68%;
+}
+
+.o7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 25%;
+  	left: 78%;
+}
+
+.o8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 55%;
+  	left: 78%;
+}
+
+.o9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 70%;
+}
+
+.o10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 58%;
+}
+
+.o11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 23%;
+}
+
+.o12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 10%;
+}
+
+.o13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 52%;
+  	left: 3%;
+}
+
+.o14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 25%;
+  	left: 3%;
+}
+
+.o15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 12%;
+  	left: 10%;
+}
+
+.o16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 2%;
+  	left: 24%;
+}
+
+/* START T */
+
+.t1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.t2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 16%;
+}
+
+.t3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 32%;
+}
+
+.t4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 48%;
+}
+
+.t5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 64%;
+}
+
+.t6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 80%;
+}
+
+.t7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 40%;
+}
+
+.t8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 40%;
+}
+
+.t9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 40%;
+}
+
+.t10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 40%;
+}
+
+.t11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 40%;
+}
+
+/* START Y */
+
+.y1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 35%;
+  	left: 40%;
+}
+
+.y2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 40%;
+}
+
+.y3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 40%;
+}
+
+.y4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 40%;
+}
+
+.y5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.y6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 80%;
+}
+
+.y7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 10%;
+  	left: 10%;
+}
+
+.y8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 20%;
+  	left: 20%;
+}
+
+.y9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 30%;
+  	left: 30%;
+}
+
+.y10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 30%;
+  	left: 50%;
+}
+
+.y11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 20%;
+  	left: 60%;
+}
+
+.y12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 10%;
+  	left: 70%;
+}
+
+/* START U */
+
+.u1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.u2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 0%;
+}
+
+.u3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 0%;
+}
+
+.u4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 0%;
+}
+
+.u5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 0%;
+}
+
+.u6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 10%;
+}
+
+.u7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 25%;
+}
+
+.u8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 40%;
+}
+
+.u9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 55%;
+}
+
+.u10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 70%;
+}
+
+.u11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 80%;
+}
+
+.u12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 80%;
+}
+
+.u13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 80%;
+}
+
+.u14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 80%;
+}
+
+.u15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 80%;
+}
+
+/* START R */
+
+.r1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.r2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 0%;
+}
+
+.r3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 0%;
+}
+
+.r4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 0%;
+}
+
+.r5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 0%;
+}
+
+.r6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 0%;
+}
+
+.r7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 16%;
+}
+
+.r8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 32%;
+}
+
+.r9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 48%;
+}
+
+.r10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 5%;
+  	left: 64%;
+}
+
+.r11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 15%;
+  	left: 75%;
+}
+
+.r12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 30%;
+  	left: 75%;
+}
+
+.r13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 60%;
+}
+
+.r14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 45%;
+}
+
+.r15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 30%;
+}
+
+.r16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 40%;
+  	left: 15%;
+}
+
+.r17 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 50%;
+  	left: 45%;
+}
+
+.r18 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 60%;
+  	left: 55%;
+}
+
+.r19 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 70%;
+  	left: 65%;
+}
+
+.r20 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 75%;
+}
+
+/* START S */
+
+.s1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 10%;
+  	left: 80%;
+}
+
+.s2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 3%;
+  	left: 70%;
+}
+
+.s3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 55%;
+}
+
+.s4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 40%;
+}
+
+.s5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 3%;
+  	left: 25%;
+}
+
+.s6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 10%;
+  	left: 14%;
+}
+
+.s7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 20%;
+  	left: 8%;
+}
+
+.s8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 30%;
+  	left: 10%;
+}
+
+.s9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 35%;
+  	left: 20%;
+}
+
+.s10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 35%;
+  	left: 35%;
+}
+
+.s11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 35%;
+  	left: 50%;
+}
+
+.s12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 35%;
+  	left: 60%;
+}
+
+.s13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 38%;
+  	left: 70%;
+}
+
+.s14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 45%;
+  	left: 78%;
+}
+
+.s15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 55%;
+  	left: 80%;
+}
+
+.s16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 78%;
+}
+
+.s17 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 70%;
+}
+
+.s18 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 60%;
+}
+
+.s19 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 45%;
+}
+
+.s20 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 30%;
+}
+
+.s21 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 15%;
+}
+
+.s22 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 5%;
+}
+
+/* LETTER W */
+
+.w1 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 0%;
+}
+
+.w2 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 0%;
+}
+
+.w3 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 0%;
+}
+
+.w4 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 0%;
+}
+
+.w5 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 0%;
+}
+
+.w6 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 0%;
+}
+
+.w7 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 0%;
+  	left: 80%;
+}
+
+.w8 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 16%;
+  	left: 80%;
+}
+
+.w9 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 32%;
+  	left: 80%;
+}
+
+.w10 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 48%;
+  	left: 80%;
+}
+
+.w11 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 64%;
+  	left: 80%;
+}
+
+.w12 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 80%;
+  	left: 80%;
+}
+
+.w13 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 10%;
+}
+
+.w14 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 35%;
+  	left: 40%;
+}
+
+.w15 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 20%;
+}
+
+.w16 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 55%;
+  	left: 30%;
+}
+
+.w17 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 45%;
+  	left: 35%;
+}
+
+.w18 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 45%;
+  	left: 45%;
+}
+
+.w19 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 55%;
+  	left: 50%;
+}
+
+.w20 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 65%;
+  	left: 60%;
+}
+
+.w21 {
+	height: 40px;
+  	width: 40px;
+  	border-radius: 50%;
+  	background-color: white;
+  	position: absolute;
+  	top: 75%;
+  	left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
